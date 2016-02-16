@@ -33,7 +33,7 @@ except sr.RequestError as e:
 
 #This is code necessary for it to start listening for input
 with sr.Microphone() as source:
-	print("Where do you live(Weather)?:")
+	print("Where do you live(Weather)?:") #Input should be in the form of address + zipcode, as otherwise the resulting location may be wrong
 	audio = r.listen(source)
 
 geolocater = Nominatim()
