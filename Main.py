@@ -22,10 +22,7 @@ r = sr.Recognizer()
 #Below are the try and except blocks for google speech recognition
 try:
 	name = r.recognize_google(audio)
-	if(name.lower() == "jarvis"):
-		print("Hello, Jarvis. Time for you to die.")
-	else:
-		print("Hello, %s, my name is Ultron." % name)
+	print("Hello, %s, my name is Ultron." % name)
 except sr.UnknownValueError:
     print("Google Speech Recognition could not understand audio")
 except sr.RequestError as e:
