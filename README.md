@@ -8,4 +8,4 @@ In order to take in geographical information, you need the Geocoders python libr
 ###Forecast
 In order to find forecast information, you need the forecast.io python library, found here: [Forecast.io](https://pypi.python.org/pypi/python-forecastio/) Make sure to register for an api key, which you can do for free [here](https://developer.forecast.io/).
 ##How to Run
-Simply run the python main.py file and follow the requests for speech input.
+Simply run the python main.py file and follow the requests for speech input. Keep in mind that audio issues like a lack of speech clarity or surrounding noise will affect the accuracy of the speech recognition.
