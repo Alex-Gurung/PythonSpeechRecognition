@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr #Comment out the parts that you don't want to run
 from geopy.geocoders import Nominatim
 import forecastio
 #Setup speech
@@ -19,7 +19,7 @@ r = sr.Recognizer()
 	print("What is your name?")
 	audio = r.listen(source)
 
-#Below are the try and except blocks for google speech recognition
+#Below are the try and except blocks for google speech recognition \
 try:
 	name = r.recognize_google(audio)
 	print("Hello, %s, my name is Ultron." % name)
