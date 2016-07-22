@@ -1,5 +1,5 @@
 # PythonSpeechRecognition
-Testing out the SpeechRecognition library for python.(This is mostly for test purposes, there aren't any particular goals with this project)
+Testing out the SpeechRecognition library for python.(This is mostly for test purposes, there aren't any particular goals with this project. Thus, any development on this project will be experimental and sporadic.)
 ##Setup
 ###Speech Recognition
 Speech recognition is done through a python library, found here: [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition/). Make sure to install.
